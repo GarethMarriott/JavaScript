@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "co": "^4.6.0",
+    "lodash": "^4.17.4",
+    "prompt": "^1.0.0",
+    "prompt-promise": "^1.0.3"
   }
 }
