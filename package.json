@@ -12,6 +12,8 @@
     "co": "^4.6.0",
     "lodash": "^4.17.4",
     "prompt": "^1.0.0",
-    "prompt-promise": "^1.0.3"
+    "prompt-promise": "^1.0.3",
+    "request": "^2.80.0",
+    "request-promise": "^4.1.1"
   }
 }
