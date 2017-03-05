@@ -7,11 +7,11 @@ function* main(){
 	let amountEurosString = yield prompt("How many euros are you exchanging? ")
 	let exchangeRateString = yield prompt("What is the exchange rate? ")
 
-	let amountEuros = parseInt(amountEurosString , 10)
-	let exchangeRate = parseInt(exchangeRateString , 10)
-	let exchangeRateMod = exchangeRate/10
+	let amountEuros = parseFloat(amountEurosString , 10)
+	let exchangeRate = parseFloat(exchangeRateString , 10)
 
-	let amountDollars = amountEuros * exchangeRate
+
+	let amountDollars = Math.round(amountEuros * exchangeRate) /100
 
 	console.log(`${amountDollars}`)
 	process.exit()
